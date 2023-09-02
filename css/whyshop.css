@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family: "poppins", sans-serif;
+}
+.first-heading{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+/* ///////////////////////NAVBAR//////////////////////////// */
+.navigation{
+    height: 56px;
+    background-color: #ffffff;
+    width: 93%;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: -1px -4px 38px -18px rgba(0,0,0,0.75);
+}
+.navbar{
+    width: 28%;
+    left: 35%;
+    transform: translate(-50%,0);
+}
+.navbar-brand{
+    display: none;
+}
+.nav-item{
+    /* background-color: red; */
+    margin-right: 30px;
+}
+#shp{
+    width: 79px;
+}
+.why-shp{
+    background-color: rgb(216, 216, 216);
+    border-radius: 4px;
+    padding: 5px 30px;
+}
+#contactus{
+    width: 120px;
+}
+.navigation i{
+    margin-right: 20px;
+}
+.navigation span{
+    margin-right: 20px;
+}
+#nav-icons{
+    width: 180px;
+}
+/* ///////////////////////////WHY-SHP-WITH-US/////////////////////// */
+
+.why-shp-widthus{
+    text-align: center;
+}
+.why-shp-widthus h2{
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.whyshpwithus-maindiv{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.whyshpwithus-subdiv{
+    width: 25%;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: rgb(229, 228, 228);
+    text-align: center;
+}
+.whyshpwithus-subdiv img{
+    width: 15%;
+    padding-top: 30px;
+}
+.whyshpwithus-subdiv h5{
+    padding-top: 10px;
+}
+/* ////////////////////////FOOTER-SECTION///////////////////////// */
+.footer-section{
+    margin-top: 100px !important;
+    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 4px;
+    width: 93%;
+    height: auto;
+    background-color: #212529;
+    /* background-color: rgb(255, 72, 0); */
+    margin: auto;
+    margin-bottom: 50px !important;
+}
+.social-links{
+   text-align: center;
+}
+.social-links i{
+    color: white;
+    font-size: 25px;
+    margin-right: 14px;
+}
+.footer-details{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.footer-details h5{
+    font-weight: 700;
+    color: white;
+}
+.footer-details p{
+    color: rgb(204, 204, 204);
+    margin-top: 20px;
+}
+.footer-details input{
+    border: none;
+    padding-right: 20%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.footer-details button{
+    border: 1px solid #f08395;
+    background-color: #f08395;
+    padding: 6px 30px;
+    color: white;
+}
+.footer-four h5{
+    margin-bottom: 20px;
+}
+.footer-four a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+}
+.footer-four a:hover{
+    color: white;
+}
+.footer-four div{
+    margin-top: 10px;
+}
+.footer-four span{
+    margin-left: 10px;
+   
+}
+
+.footer-one,.footer-two,.footer-three,.footer-four{
+    width: 90%;
+   
+}
+.ul{
+    border-bottom: 1px solid white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px !important;
+}
+.cpy-rgt{
+    color: rgb(204, 204, 204);
+    text-align: center;
+    padding-top: 19px;
+}
+
+@media(min-width:300px) and (max-width:575.98px){
+    
+    .navbar{
+        width: 100%;
+        left: 100%;
+        transform: translate(-100%,0);
+        background-color: white;
+    }
+    .navbar-brand{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .first-heading{
+        display: none;
+    }
+    .whyshpwithus-maindiv{
+        display: inline;
+    }
+    .whyshpwithus-subdiv{
+        width: 92%;
+        margin-bottom: 20px !important;
+        margin: auto;
+    }
+    .footer-section{
+        text-align: center;
+        padding: 0px;
+    }
+    .social-links{
+        padding-top: 20px;
+    }
+     .footer-details{
+        display: inline;
+    }
+    .footer-one,.footer-two,.footer-three,.footer-four{
+        margin-top: 30px;
+        width: 95%;
+       
+    }   
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .navbar{
+        width: 100%;
+        left: 100%;
+        transform: translate(-100%,0);
+        background-color: white;
+    }
+    .navbar-brand{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .first-heading{
+        display: none;
+    }
+    .whyshpwithus-maindiv{
+        display: inline;
+    }
+    .whyshpwithus-subdiv{
+        width: 92%;
+        margin-bottom: 20px !important;
+        margin: auto;
+    }
+    .footer-section{
+        text-align: center;
+        padding: 0px;
+    }
+    .social-links{
+        padding-top: 20px;
+    }
+     .footer-details{
+        display: inline;
+    }
+    .footer-one,.footer-two,.footer-three,.footer-four{
+        margin-top: 30px;
+        width: 95%;
+       
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .navbar{
+        width: 100%;
+        left: 100%;
+        transform: translate(-100%,0);
+        background-color: white;
+    }
+    .navbar-brand{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .first-heading{
+        display: none;
+    }
+    .whyshpwithus-maindiv{
+        width: 95%;
+        margin: auto;
+    }
+    .whyshpwithus-subdiv{
+        width: 92%;
+        margin-bottom: 20px !important;
+        margin: auto;
+    }
+    .footer-section{
+        text-align: center;
+        padding: 0px;
+    }
+    .social-links{
+        padding-top: 20px;
+    }
+     .footer-details{
+        display: inline;
+    }
+    .footer-one,.footer-two,.footer-three,.footer-four{
+        margin-top: 30px;
+        width: 95%;
+       
+    }     
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .navbar{
+        width: 100%;
+        left: 100%;
+        transform: translate(-100%,0);
+        background-color: white;
+    }
+    .navbar-brand{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .first-heading{
+        display: none;
+    }
+    .whyshpwithus-maindiv{
+        width: 95%;
+        margin: auto;
+    }
+    .whyshpwithus-subdiv{
+        width: 92%;
+        margin-bottom: 20px !important;
+        margin: auto;
+    }
+    .footer-section{
+        text-align: center;
+        padding: 0px;
+    }
+    .social-links{
+        padding-top: 20px;
+    }
+    .footer-one,.footer-two,.footer-three,.footer-four{
+        margin-top: 30px;
+        width: 95%;
+    }   
+}
